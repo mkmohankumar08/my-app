@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import React, { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -46,8 +47,8 @@ const ContactUs = () => {
             Contact Us
           </h2>
           <p className="text-center text-gray-600 mb-10">
-            Have questions or need help? Fill out the form and we’ll get back to you
-            as soon as possible.
+            Have questions or need help? Fill out the form and we’ll get back to
+            you as soon as possible.
           </p>
 
           {/* Form */}
@@ -127,16 +128,25 @@ const ContactUs = () => {
           <div className="mt-10 text-center text-gray-600">
             <p>
               Email:{" "}
-              <a href="mailto:support@guiddera.com" className="text-black font-medium">
-                support@guiddera.com
+              <a
+                href="mailto:support@guiddera.com"
+                className="text-black font-medium"
+              >
+                guiddera@gmail.com
               </a>
             </p>
-            <p>
-              Phone:{" "}
-              <a href="tel:+1234567890" className="text-black font-medium">
-                +91 8508191121
-              </a>
-            </p>
+
+            <div className="flex items-center justify-center mt-2 gap-2">
+       
+                <p className="text-grey">Contact Us:</p>
+                <p className="text-sm text-gray-400 flex items-center gap-1">
+                  <FaWhatsapp className="text-base text-green-500" />
+                         <a href="tel:+91 8508191121" className="text-black font-medium">
+                  +91 8508191121
+                  </a>
+                </p>
+              
+            </div>
           </div>
         </div>
       </section>

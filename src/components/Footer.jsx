@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,7 +10,9 @@ const Footer = () => {
         <div className="text-center md:text-left space-y-3">
           <img src="/Guiddera-06.png" className="mx-auto md:mx-0 w-[180px]" alt="Guiddera Logo" />
           <p className="text-sm text-gray-400">© 2025 Guiddera. All Rights Reserved.</p>
-          <p className="text-sm text-gray-400">info@guiddera.com | www.guiddera.com</p>
+          <p className="text-sm text-gray-400">guiddera@gmail.com | www.guiddera.com</p>
+    <div className='flex gap-2'>      <p>Contact Us:</p>
+          <p className='text-sm text-gray-400 flex items-center gap-1'><FaWhatsapp className='text-base' />+91 8508191121</p></div>
         </div>
 
         {/* Quick Links */}
