@@ -105,7 +105,7 @@ const ContactUs = () => {
               </label>
               <textarea
                 name="message"
-                rows="5"
+                rows={4}
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Write your message here..."
