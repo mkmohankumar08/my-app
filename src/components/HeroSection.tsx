@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
- <section className="relative bg-gradient-to-r from-orange-50 via-white to-pink-50 overflow-hidden min-h-[100vh] flex items-center">
+ <section className="relative bg-gradient-to-r py-24 from-orange-50 via-white to-pink-50 overflow-hidden min-h-[100vh] flex items-center">
   {/* Decorative gradient orbs */}
   <div className="absolute -top-40 -left-40 w-[450px] h-[450px] bg-orange-200/40 rounded-full blur-3xl animate-pulse"></div>
   <div className="absolute -bottom-40 -right-40 w-[500px] h-[500px] bg-pink-200/40 rounded-full blur-3xl animate-pulse"></div>
